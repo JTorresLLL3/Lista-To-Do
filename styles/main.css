@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .texto-header {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .contenedor-doble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .input-tarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .boton-agregar {
+    background: #d4edda;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+  }
+  
+  .boton-agregar:hover {
+    background: #16a028;
+  }
+  
+  .lista-tareas {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tarea-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tarea-item.completada {
+    background-color: #d4edda;
+    text-decoration: line-through;
+    color: #6c757d;
+  }
+  
+  .nombre-tarea {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .fecha-tarea {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Botones dentro de cada tarea */
+  .boton-completar,
+  .boton-eliminar {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .boton-completar {
+    background-color: #007bff;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-completar:hover {
+    background-color: #0056b3;
+  }
+  
+  .boton-eliminar {
+    background-color: #dc3545;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-eliminar:hover {
+    background-color: #c82333;
+  }
+  
+  /* Tabla de contactos (si es necesario en otro contexto) */
+  .tabla_std {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+  }
+  
+  .tabla_row {
+    border: 1px solid #ccc;
+  }
+  
+  .tabla_row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tabla_cell {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  
